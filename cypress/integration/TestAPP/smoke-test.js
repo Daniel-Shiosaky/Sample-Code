@@ -54,6 +54,6 @@ describe('GoDaddy smoke test #godaddy #smoke', () => {
       .click();
 
     cy.url()
-      .should('contain', 'godaddy.com/manage');
+      .should('contain', 'testdomain.com/manage');
   });
 });
