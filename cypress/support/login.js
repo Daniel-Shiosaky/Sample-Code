@@ -84,14 +84,8 @@ export function login(profileName, useReseller) {
         url,
         form: true,
         body: 'username=' + name + '&password=' + password + '&realm=idp&infotoken=true'
-      }, { timeout: Cypress.env('longTimeout') }).then((response) => {
-        const { data, infotoken } = response.body;
-        cache.creds[envName] = cache.creds[envName] || {};
-        cache.creds[envName][privateLabel] = cache.creds[envName][privateLabel] || {};
-        cache.creds[envName][privateLabel][profileName] = { data, infotoken };
-        cy.writeFile(cacheFileName, cache, 'utf8'); // write the cache with the new credential entry
-        return setCookies(domain, data, infotoken);
-      });
+      })
+
     });
 
   });
