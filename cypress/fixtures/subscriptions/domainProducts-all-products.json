@@ -1,0 +1,30 @@
+[
+   {
+      "subscriptionId": "2492480:140",
+      "status": "ACTIVE",
+      "createdAt": "2013-12-17T18:08:43.890Z",
+      "label": "gfvrytsefytrjhyaerjehfregt.so",
+      "expiresAt": "2023-12-17T07:00:00.000Z",
+      "renewable": true,
+      "upgradeable": true,
+      "priceLocked": false,
+      "renewAuto": true,
+      "paymentProfileId": 38020,
+      "product": {
+         "pfid": 84,
+         "label": "Business Registration",
+         "renewalPfid": 10084,
+         "renewalPeriod": 1,
+         "renewalPeriodUnit": "ANNUAL",
+         "productGroupKey": "businessRegistration",
+         "namespace": "proxima"
+      },
+      "billing": {
+         "renewAt": "2023-12-17T07:00:00.000Z",
+         "status": "CURRENT",
+         "commitment": "PAID"
+      },
+      "addons": [],
+      "relations": null
+   }
+]

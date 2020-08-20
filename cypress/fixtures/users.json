@@ -1,0 +1,38 @@
+{
+  "test": {
+    "godaddy": {
+      "generic": {
+        "name": "testuser",
+        "password": "Test123"
+      },
+      "smoke-tester": {
+        "name": "gdsmoketest1",
+        "password": "test1234"
+      }
+    },
+    "local": {
+      "godaddy": {
+        "generic": {
+          "name": "localtestuser",
+          "password": "localtest123"
+        },
+        "smoke-tester": {
+          "name": "localsmoketest",
+          "password": "localsmoke123"
+        }
+      },
+      "prod": {
+        "godaddy": {
+          "generic": {
+            "name": "produser",
+            "password": "produser123"
+          },
+          "smoke-tester": {
+            "name": "prodsmoketest",
+            "password": "prod"
+          }
+        }
+      }
+    }
+  }
+}

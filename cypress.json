@@ -1,0 +1,30 @@
+{
+  "defaultCommandTimeout": 30000,
+  "requestTimeout": 30000,
+  "chromeWebSecurity": false,
+  "video": false,
+  "blacklistHosts": [
+    "somedomain.com",
+    "some_Subdomain.com"
+  ],
+  "env": {
+    "envKey": "test",
+    "envParams": {
+      "test": {
+        "envName": "test",
+        "prefix": "test-",
+        "url": "https://test.envurl.com"
+      },
+      "local": {
+        "envName": "local",
+        "prefix": "test-",
+        "url": "https://local.envurl.com"
+      },
+      "prod": {
+        "envName": "prod",
+        "prefix": "",
+        "url": "https://prod.envurl.com"
+      }
+    }
+  }
+}
